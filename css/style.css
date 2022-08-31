@@ -6,10 +6,11 @@
 header {
   background-color: black;
   color: aliceblue;
-  padding-bottom: 15px; }
+  padding: 15px; }
   header li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   header ul {
+    padding: 10px;
     display: flex;
     justify-content: space-evenly; }
   header h1 {
@@ -20,19 +21,21 @@ header {
     width: 100%; }
 
 .mainIndex {
-  background-color: #c6c0c0;
+  padding: 25px;
+  background-color: #b78e62;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
-  min-height: 50dh;
+  height: 350px;
   display: flex; }
   .mainIndex img {
     width: 50%; }
 
 footer {
-  background-color: #939090;
+  background-color: #b57629;
   height: 50px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   footer ul {
     display: flex;
     justify-content: space-evenly;
-    height: 50px; }
+    height: 50px;
+    align-items: center; }
