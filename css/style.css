@@ -3,6 +3,25 @@
   padding: 0%;
   box-sizing: border-box; }
 
+.mainIndex {
+  padding: 25px;
+  background-color: #dbc59c;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column; }
+  .mainIndex img {
+    width: 50%; }
+  .mainIndex .card {
+    margin: 20px; }
+  .mainIndex__button {
+    background-color: #bda86e;
+    color: beige; }
+
+@media (min-width: 550px) {
+  .mainIndex {
+    flex-direction: row; } }
+
 header {
   background-color: black;
   color: aliceblue;
@@ -19,16 +38,6 @@ header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   header img {
     width: 100%; }
-
-.mainIndex {
-  padding: 25px;
-  background-color: #b78e62;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: center;
-  height: 350px;
-  display: flex; }
-  .mainIndex img {
-    width: 50%; }
 
 footer {
   background-color: #b57629;

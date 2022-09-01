@@ -3,55 +3,10 @@
     padding: 0%;
     box-sizing: border-box;
 }
+@import './Variables/colores';
+@import './secciones/_mainIndex';
+@import './secciones/header';
+@import './secciones/footer';
 
-header{
-    background-color: black;
-    color: aliceblue;
-    padding: 15px;
-   
 
-    li{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
 
-    }
-    ul{
-        padding: 10px;
-        display: flex;
-        justify-content: space-evenly;
-    
-       
-    }
-    h1{
-        padding: 10px;
-        text-align: center;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    img{
-        width: 100%;
-    }
-}
-.mainIndex{
-    padding: 25px;
-    background-color: rgb(183, 142, 98);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    height: 350px;
-    display: flex;
-    img{
-        width: 50%;
-    }
-
-}
-footer{
-
-    background-color: rgb(181, 118, 41);
-    height: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    ul{
-        display: flex;
-        justify-content: space-evenly;
-        height: 50px;
-        align-items: center;
-    }
-}

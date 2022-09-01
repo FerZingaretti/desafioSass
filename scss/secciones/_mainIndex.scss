@@ -1,0 +1,26 @@
+.mainIndex{
+    padding: 25px;
+    background-color: $Fondo;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 50%;
+    }
+    .card{
+        margin: 20px;
+    }
+
+    &__button{
+        background-color: rgb(189, 168, 110);
+        color: beige;
+    }
+
+}
+
+@media (min-width: 550px){
+    .mainIndex{
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,27 @@
+header{
+    background-color: $header;
+    color: aliceblue;
+    padding: 15px;
+   
+
+    li{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+    }
+    ul{
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    
+       
+    }
+    h1{
+        padding: 10px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    img{
+        width: 100%;
+    }
+}
