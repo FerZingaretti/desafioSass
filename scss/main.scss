@@ -3,7 +3,10 @@
     padding: 0%;
     box-sizing: border-box;
 }
+@import './Variables/extend';
+@import './Variables/typo';
 @import './Variables/colores';
+
 @import './secciones/_mainIndex';
 @import './secciones/header';
 @import './secciones/footer';

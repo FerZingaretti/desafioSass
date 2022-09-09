@@ -2,10 +2,13 @@ header{
     background-color: $header;
     color: aliceblue;
     padding: 15px;
+    h1{
+        @include formatoTexto;
+    }
    
 
     li{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: $typoPrincipal;
     
 
     }
@@ -19,7 +22,7 @@ header{
     h1{
         padding: 10px;
         text-align: center;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: $typoPrincipal;
     }
     img{
         width: 100%;

@@ -1,0 +1,11 @@
+%estiloPrincipal{
+background-color: aqua;
+color: black;
+font-family: t$typoPrincipal;
+}
+
+
+@mixin formatoTexto {
+    font-size: medium;
+    font-style: italic;
+}
