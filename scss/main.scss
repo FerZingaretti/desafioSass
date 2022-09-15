@@ -1,15 +1,13 @@
-@import './Variables/extend';
-@import './Variables/typo';
-@import './Variables/colores';
+
 
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-/* @import './Variables/extend';
+@import './Variables/extend';
 @import './Variables/typo';
-@import './Variables/colores'; */
+@import './Variables/colores';
 
 @import './secciones/_mainIndex';
 @import './secciones/header';
@@ -17,3 +15,6 @@
 
 
 
+.header {
+    @extend %estiloPrincipal;
+}
