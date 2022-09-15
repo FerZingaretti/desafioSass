@@ -1,29 +1,12 @@
-header{
-    background-color: $header;
-    color: aliceblue;
-    padding: 15px;
+.header{
+    @extend %estiloPrincipal;
+    
     h1{
         @include formatoTexto;
-    }
+        }
    
 
-    li{
-        font-family: $typoPrincipal;
     
-
-    }
-    ul{
-        padding: 10px;
-        display: flex;
-        justify-content: space-evenly;
-    
-       
-    }
-    h1{
-        padding: 10px;
-        text-align: center;
-        font-family: $typoPrincipal;
-    }
     img{
         width: 100%;
     }
